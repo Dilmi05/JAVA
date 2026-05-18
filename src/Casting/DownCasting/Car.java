@@ -1,4 +1,7 @@
 package Casting.DownCasting;
 
-public class Car {
+class Car extends Vehicle {
+    void drive() {
+        System.out.println("Car is driving");
+    }
 }

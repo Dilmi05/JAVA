@@ -1,4 +1,8 @@
 package Polymorphism.StaticBinding;
 
-public class Vehicle {
+class Vehicle {
+
+    static void show() {
+        System.out.println("Vehicle method");
+    }
 }

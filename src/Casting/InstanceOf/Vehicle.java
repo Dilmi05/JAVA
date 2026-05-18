@@ -1,4 +1,7 @@
 package Casting.InstanceOf;
 
-public class Vehicle {
+class Vehicle {
+    public void start() {
+        System.out.println("Vehicle starts");
+    }
 }

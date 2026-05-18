@@ -1,4 +1,9 @@
 package Inheritance;
 
-public class Car {
+public class Car extends Vehicle{
+
+    @Override
+    public void drive(){
+        System.out.println("Driving....");
+    }
 }

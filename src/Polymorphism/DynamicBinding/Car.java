@@ -1,4 +1,9 @@
 package Polymorphism.DynamicBinding;
 
-public class Car {
+class Car extends Vehicle {
+
+    @Override
+    public void start() {
+        System.out.println("Car starts");
+    }
 }

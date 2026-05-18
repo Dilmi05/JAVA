@@ -1,4 +1,9 @@
 package Inheritance.Homework;
 
 public class Vehicle {
+    public double speed = 40.0;
+
+    public void start(){
+        System.out.println("Starting");
+    }
 }
